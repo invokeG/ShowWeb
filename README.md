@@ -1,9 +1,9 @@
-# ShowWeb👻: Visual Element Path Viewer Chrome Extension
-# 浏览器插件👻：可视化元素路径查看器
+# ShowWeb👻: Visual Element Path Viewer Browser Extension
+# 浏览器插件👻：可视化元素路径查看器【谷歌 & Edge】
 <p align="center">
-<img alt="Static Badge" src="https://img.shields.io/badge/Node.js-v18.17.1-orange">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Chrome-v119.0.6045.160-lightgreen">
-  <br>
+    <img alt="Static Badge" src="https://img.shields.io/badge/Node.js-v18.17.1-orange">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Chrome-v119.0.6045.160-lightgreen">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Edge-v121.0.2220.3-blue">
 </p>
 
 ## Description:
