@@ -11,6 +11,8 @@
 
 Explore the structure of your webpage effortlessly! This plugin allows you to visualize the DOM path of any element by holding down the Alt key and clicking on it. No need for cumbersome developer tools—get instant access to element information, including tag names, class names, IDs, and more. Additionally, it provides a convenient popup box displaying the element's path and content, making it easier for you to understand and debug page structures.
 
+<img src="images/description.png">
+
 ## Key Features:
 - **快速查看元素路径：** 按住Alt键，点击任意页面元素，即可获取其DOM路径。
 
