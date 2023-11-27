@@ -1,5 +1,5 @@
 # ShowWeb: Visual Element Path Viewer Chrome Extension
-# 谷歌浏览器插件：可视化元素路径查看器
+# 浏览器插件：可视化元素路径查看器
 <p align="center">
 <img alt="Static Badge" src="https://img.shields.io/badge/Node.js-v18.17.1-orange">
   <img alt="Static Badge" src="https://img.shields.io/badge/Chrome-v119.0.6045.160-lightgreen">
@@ -7,7 +7,7 @@
 </p>
 
 ## Description:
-轻松了解网页上的元素结构！这款Chrome插件允许你通过按住Alt键并点击页面上的任何元素，立即可视化查看该元素的DOM路径。无需繁琐的开发者工具，一键获取元素信息，包括标签名、类名、ID等。另外，提供了方便的弹出框，展示了元素的路径和内容，让你更直观地理解和调试页面结构。
+轻松了解网页上的元素结构！这款插件允许你通过按住Alt键并点击页面上的任何元素，立即可视化查看该元素的DOM路径。无需繁琐的开发者工具，一键获取元素信息，包括标签名、类名、ID等。另外，提供了方便的弹出框，展示了元素的路径和内容，让你更直观地理解和调试页面结构。
 
 Explore the structure of your webpage effortlessly! This plugin allows you to visualize the DOM path of any element by holding down the Alt key and clicking on it. No need for cumbersome developer tools—get instant access to element information, including tag names, class names, IDs, and more. Additionally, it provides a convenient popup box displaying the element's path and content, making it easier for you to understand and debug page structures.
 
