@@ -1,0 +1,37 @@
+.custom-dialog-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #282c35;
+    /* 夜间主题背景色 */
+    padding: 20px;
+    border: 1px solid #000;
+    z-index: 9999;
+    color: #fff;
+    /* 夜间主题文字颜色 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* 添加阴影效果 */
+    width: 600px;
+    height: 600px;
+    /* 设置高度 */
+    overflow: auto;
+    /* 添加滚动条，以防内容过多 */
+}
+
+.custom-dialog-box code {
+    /* 样式化代码块 */
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    white-space: pre-wrap;
+    font-family: monospace;
+    color: #DC3278;
+    /* 代码块文字颜色 */
+    background-color: #4a4a4a;
+    /* 代码块背景色 */
+    padding: 10px;
+    border-radius: 5px;
+    height: 200px;
+    overflow: auto;
+    
+}

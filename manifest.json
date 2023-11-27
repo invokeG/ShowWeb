@@ -13,5 +13,12 @@
             "48": "images/showwebicon.png"
         }
     },
-    "permissions": ["scripting", "activeTab"]
+    "permissions": ["scripting", "activeTab", "storage"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "css": ["content.css"]
+        }
+    ]
 }
