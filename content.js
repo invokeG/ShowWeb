@@ -1,5 +1,5 @@
 const findClickedElementPath = (event) => {
-  event.preventDefault(); // 阻止浏览器默认行为
+  // event.preventDefault(); // 阻止浏览器默认行为
   // console.log('Function started');
   if (!event.altKey) {
     // console.log('Alt key not pressed, exiting function');
