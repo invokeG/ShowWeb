@@ -2,23 +2,37 @@
     "manifest_version": 3,
     "name": "ShowWeb",
     "version": "0.1.0",
+    "description": "A Visual Element Path Viewer Chrome Extension.",
     "icons": {
-        "48": "images/showwebicon.png"
+        "16": "images/16x16_showweb.png",
+        "48": "images/48x48_showweb.png",
+        "128": "images/128x128_showweb.png"
     },
     "background": {
         "service_worker": "background.js"
     },
     "action": {
         "default_icon": {
-            "48": "images/showwebicon.png"
-        }
+            "48": "images/48x48_showweb.png"
+        },
+        "default_popup": "popup.html"
     },
-    "permissions": ["scripting", "activeTab", "storage"],
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "storage"
+    ],
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
-            "js": ["content.js"],
-            "css": ["content.css"]
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ]
         }
     ]
 }

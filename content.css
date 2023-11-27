@@ -1,4 +1,5 @@
 .custom-dialog-box {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -21,7 +22,7 @@
 
 .custom-dialog-box code {
     /* 样式化代码块 */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: block;
     white-space: pre-wrap;
     font-family: monospace;

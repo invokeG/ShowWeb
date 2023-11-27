@@ -1,7 +1,8 @@
 const findClickedElementPath = (event) => {
-  console.log('Function started');
+  event.preventDefault(); // 阻止浏览器默认行为
+  // console.log('Function started');
   if (!event.altKey) {
-    console.log('Alt key not pressed, exiting function');
+    // console.log('Alt key not pressed, exiting function');
     return;
   }
 
@@ -13,7 +14,7 @@ const findClickedElementPath = (event) => {
 
   const clickedElement = event.target;
   if (!clickedElement) {
-    console.log('No clicked element found, exiting function');
+    // console.log('No clicked element found, exiting function');
     return;
   }
 
@@ -49,6 +50,7 @@ const findClickedElementPath = (event) => {
 
   const pathTitle = document.createElement('h3');
   pathTitle.textContent = 'Path';
+  pathTitle.style.color = '#E66E50';
   dialogBox.appendChild(pathTitle);
 
   // 创建代码块
@@ -59,6 +61,7 @@ const findClickedElementPath = (event) => {
 
   const contenTitle = document.createElement('h3');
   contenTitle.textContent = 'Element Content';
+  contenTitle.style.color = '#E66E50';
   dialogBox.appendChild(contenTitle);
 
   const codeContent = document.createElement('code');
@@ -131,13 +134,12 @@ const findClickedElementPath = (event) => {
 
   setTimeout(() => {
     const computedStyles = window.getComputedStyle(dialogBox);
-    console.log('Width:', computedStyles.width);
-    console.log('Height:', computedStyles.height);
-    console.log('Background Color:', computedStyles.backgroundColor);
-    // 添加其他属性...
+    // console.log('Width:', computedStyles.width);
+    // console.log('Height:', computedStyles.height);
+    // console.log('Background Color:', computedStyles.backgroundColor);
   }, 1000);
 
-  console.log('Function ended');
+  // console.log('Function ended');
 }
 
 document.addEventListener('click', findClickedElementPath);
