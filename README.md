@@ -6,7 +6,9 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/Chrome-v119.0.6045.160-lightgreen">
     <img alt="Static Badge" src="https://img.shields.io/badge/Edge-v121.0.2220.3-blue">
 </p>
-
+<p align="center">
+Edge Add-ons：[ShowWeb](https://microsoftedge.microsoft.com/addons/detail/showweb%E5%8F%AF%E8%A7%86%E5%8C%96%E5%85%83%E7%B4%A0%E8%B7%AF%E5%BE%84%E6%9F%A5%E7%9C%8B%E5%99%A8/dnieapbhjmgkbgkadimhjmigcefjmilb)
+</p>
 
 ## Description:
 轻松了解网页上的元素结构！这款插件允许你通过按住Alt键并点击页面上的任何元素，立即可视化查看该元素的DOM路径。无需繁琐的开发者工具，一键获取元素信息，包括标签名、类名、ID等。另外，提供了方便的弹出框，展示了元素的路径和内容，让你更直观地理解和调试页面结构。
